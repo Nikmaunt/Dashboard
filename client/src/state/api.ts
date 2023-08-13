@@ -1,4 +1,4 @@
-import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query";
+import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 
 export const api = createApi({
     baseQuery: fetchBaseQuery({
@@ -14,5 +14,5 @@ export const api = createApi({
     })
 })
 
-// @ts-ignore
+
 export const {useGetKpisQuery} = api
