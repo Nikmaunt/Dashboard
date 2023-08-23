@@ -25,6 +25,7 @@ const PORT = process.env.PORT || 9000;
 mongoose
     .connect(process.env.MONGO_URL, {
         useNewUrlParser: true,
+        useMongoClient: true,
         useUnifiedTopology: true,
     })
     .then(async () => {
