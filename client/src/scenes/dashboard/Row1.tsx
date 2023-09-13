@@ -107,15 +107,15 @@ const Row1 = () => {
                         <XAxis
                             dataKey="name"
                             tickLine={false}
-                            style={{ fontSize: "10px" }}
+                            style={{fontSize: "10px"}}
                         />
                         <YAxis
                             tickLine={false}
-                            axisLine={{ strokeWidth: "0" }}
-                            style={{ fontSize: "10px" }}
+                            axisLine={{strokeWidth: "0"}}
+                            style={{fontSize: "10px"}}
                             domain={[8000, 23000]}
                         />
-                        <Tooltip />
+                        <Tooltip/>
                         <Area
                             type="monotone"
                             dataKey="revenue"
@@ -153,26 +153,26 @@ const Row1 = () => {
                             bottom: 55,
                         }}
                     >
-                        <CartesianGrid vertical={false} stroke={palette.grey[800]} />
+                        <CartesianGrid vertical={false} stroke={palette.grey[800]}/>
                         <XAxis
                             dataKey="name"
                             tickLine={false}
-                            style={{ fontSize: "10px" }}
+                            style={{fontSize: "10px"}}
                         />
                         <YAxis
                             yAxisId="left"
                             tickLine={false}
                             axisLine={false}
-                            style={{ fontSize: "10px" }}
+                            style={{fontSize: "10px"}}
                         />
                         <YAxis
                             yAxisId="right"
                             orientation="right"
                             tickLine={false}
                             axisLine={false}
-                            style={{ fontSize: "10px" }}
+                            style={{fontSize: "10px"}}
                         />
-                        <Tooltip />
+                        <Tooltip/>
                         <Legend
                             height={20}
                             wrapperStyle={{
@@ -226,20 +226,20 @@ const Row1 = () => {
                                 />
                             </linearGradient>
                         </defs>
-                        <CartesianGrid vertical={false} stroke={palette.grey[800]} />
+                        <CartesianGrid vertical={false} stroke={palette.grey[800]}/>
                         <XAxis
                             dataKey="name"
                             axisLine={false}
                             tickLine={false}
-                            style={{ fontSize: "10px" }}
+                            style={{fontSize: "10px"}}
                         />
                         <YAxis
                             axisLine={false}
                             tickLine={false}
-                            style={{ fontSize: "10px" }}
+                            style={{fontSize: "10px"}}
                         />
-                        <Tooltip />
-                        <Bar dataKey="revenue" fill="url(#colorRevenue)" />
+                        <Tooltip/>
+                        <Bar dataKey="revenue" fill="url(#colorRevenue)"/>
                     </BarChart>
                 </ResponsiveContainer>
             </DashboardBox>
