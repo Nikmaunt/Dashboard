@@ -6,14 +6,14 @@ export const api = createApi({
         baseUrl: import.meta.env.VITE_BASE_URL
     }),
     reducerPath: "main",
-    tagTypes:["Kpis","Products"],
-    endpoints: (build)=>  ({
+    tagTypes: ["Kpis", "Products"],
+    endpoints: (build) => ({
         getKpis: build.query<Array<GetKpisResponse>, void>({
-            query: ()=> "kpi/kpis/",
+            query: () => "kpi/kpis/",
             providesTags: ["Kpis"]
         }),
         getProducts: build.query<Array<GetProductsResponse>, void>({
-            query: ()=> "product/products/",
+            query: () => "product/products/",
             providesTags: ["Products"]
         })
     })
