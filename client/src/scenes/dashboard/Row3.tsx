@@ -198,10 +198,7 @@ const Row3 = () => {
                     ></Box>
                 </Box>
                 <Typography margin="0 1rem" variant="h6">
-                    Orci aliquam enim vel diam. Venenatis euismod id donec mus lorem etiam
-                    ullamcorper odio sed. Ipsum non sed gravida etiam urna egestas
-                    molestie volutpat et. Malesuada quis pretium aliquet lacinia ornare
-                    sed. In volutpat nullam at est id cum pulvinar nunc.
+                    This dashboard app serves as a testing platform, and all the data contained within it is generated for the purpose of evaluating the functionality and design of the application. It does not reflect actual, live data and should not be used for any decision-making or analytical purposes.
                 </Typography>
             </DashboardBox>
         </>
